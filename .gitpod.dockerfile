@@ -6,6 +6,4 @@ RUN sudo apt-get update \
     libgtk-3-dev \   
     libnss3-dev \
     chromium-browser \
-    --disable-setuid-sandbox \
-    --no-sandbox \
  && sudo rm -rf /var/lib/apt/lists/*
